@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         button.setOnClickListener {
             textView.setText(R.string.texto_inicial)
 
-            val dado = Dado(50)
+            val dado = Dado(6)
             val resultado = dado.rolar()
             textView.setText(resultado.toString())
 

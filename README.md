@@ -1,2 +1,2 @@
 # Projetos-Android-Studio
-Destinado a Projetos em Dart no Android Studio
+O Intuito desde projeto é aprimorar os conhecimentos em KOTLIN.

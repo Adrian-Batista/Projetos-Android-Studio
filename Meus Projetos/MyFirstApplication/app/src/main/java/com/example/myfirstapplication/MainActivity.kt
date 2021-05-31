@@ -25,6 +25,12 @@ class MainActivity : AppCompatActivity() {
         }
     }
     fun clickButton(view : View){
+
+        val dado = Dado(6)
+        val resultado = dado.rolar()
+
+        val textView: TextView = findViewById(R.id.textView)
+
         val toast = Toast.makeText(this,R.string.texto_inicial, Toast.LENGTH_SHORT)
         toast.show()
 

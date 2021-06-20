@@ -9,7 +9,6 @@ import android.widget.EditText
 import android.widget.Toast
 import androidx.activity.result.ActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
-import java.nio.file.attribute.AclFileAttributeView
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,7 +20,7 @@ class MainActivity : AppCompatActivity() {
             result: ActivityResult ->
         if(result.resultCode == Activity.RESULT_OK) {
             val intent = result.data
-            val message = intent?.getStringExtra("MESSAGE")
+            val message = intent.getStringExtra("MESSAGE")
             Toast.makeText(this, message, Toast.LENGTH_LONG).show()
         }
     }

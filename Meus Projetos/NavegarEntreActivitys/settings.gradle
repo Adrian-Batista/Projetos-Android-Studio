@@ -1,0 +1,2 @@
+rootProject.name = "NavegarEntreActivitys"
+include ':app'
